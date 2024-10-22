@@ -9,7 +9,7 @@ This project demonstrates basic DOM manipulation using vanilla JavaScript to sty
 
 ## Files Overview:
 
-#### index.html
+### index.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -24,7 +24,7 @@ This project demonstrates basic DOM manipulation using vanilla JavaScript to sty
 </body>
 </html>
 
-#### script.js
+### script.js
 
 let container = document.getElementById("container");
 
@@ -50,7 +50,7 @@ To run the project locally:
 3. Open the index.html file in your browser to see the project in action.
 
 ## Live Demo:
-You can view the live version of the project here: 
+You can view the live version of the project here: https://akshay53156.github.io/DOM-Project-1/index.html
 
 ## Project Functionality:
 - A div element is dynamically styled using JavaScript.
