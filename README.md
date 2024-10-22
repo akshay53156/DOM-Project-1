@@ -7,36 +7,6 @@ This project demonstrates basic DOM manipulation using vanilla JavaScript to sty
 - `index.html`: The main HTML file containing the structure of the page.
 - `script.js`: The JavaScript file that manipulates the DOM by applying styles to the `div` element.
 
-## Files Overview:
-
-### index.html
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple DOM Manipulation</title>
-</head>
-<body>
-    <div id="container">Hello, I'm a div!</div>
-    <script src="./script.js"></script>
-</body>
-</html>
-
-### script.js
-
-let container = document.getElementById("container");
-
-container.style.backgroundColor = "yellow";
-container.style.margin = "20px";
-container.style.padding = "10px";
-container.style.fontSize = "18px";
-container.style.fontWeight = "bold";
-container.style.height = "200px";
-container.style.width = "300px";
-container.style.color = "blue";
-
 ## How to Run the Project Locally
 
 To run the project locally:
