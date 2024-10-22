@@ -24,36 +24,16 @@ This project demonstrates basic DOM manipulation using vanilla JavaScript to sty
 </body>
 </html>
 
-#### script.js
+## Live Demo
 
-The `script.js` file contains the JavaScript code that manipulates the DOM by applying styles to the `div` element with the ID "container".
+To view the live version of the project, click the link below:
 
-```javascript
-let container = document.getElementById("container");
+[Live Demo](YOUR_LIVE_DEMO_LINK_HERE)
 
-container.style.backgroundColor = "yellow";
-container.style.margin = "20px";
-container.style.padding = "10px";
-container.style.fontSize = "18px";
-container.style.fontWeight = "bold";
-container.style.height = "200px";
-container.style.width = "300px";
-container.style.color = "blue";
+### Instructions to Access the Hosted Version:
 
-How to Run the Project Locally
-Clone this repository:
-bash
-Copy code
-git clone https://github.com/akshay53156/DOM-Project-1.git
-Navigate to the project directory:
-bash
-Copy code
-cd DOM-Project-1
-Open the index.html file in your browser to see the project in action.
-Live Demo
-You can view the live version of the project here: Live Demo
+1. Click the link provided above.
+2. The live version of the project will open in your web browser.
+3. You should see the styled `div` element displaying the text "Hello, I'm a div!" with the applied styles.
 
-Project Functionality
-A div element is dynamically styled using JavaScript.
-The styles applied include background color, margin, padding, font size, and more.
-The content inside the div ("Hello, I'm a div!") is made bold, enlarged, and centered within a styled box.
+Feel free to interact with the page and observe the styles applied to the `div` element.
