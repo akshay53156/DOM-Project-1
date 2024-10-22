@@ -24,11 +24,13 @@ This project demonstrates basic DOM manipulation using vanilla JavaScript to sty
 </body>
 </html>
 
-script.js
-javascript
-Copy code
+#### script.js
+
+The `script.js` file contains the JavaScript code that manipulates the DOM by applying styles to the `div` element with the ID "container".
+
+```javascript
 let container = document.getElementById("container");
-#script.js
+
 container.style.backgroundColor = "yellow";
 container.style.margin = "20px";
 container.style.padding = "10px";
@@ -37,6 +39,7 @@ container.style.fontWeight = "bold";
 container.style.height = "200px";
 container.style.width = "300px";
 container.style.color = "blue";
+
 How to Run the Project Locally
 Clone this repository:
 bash
